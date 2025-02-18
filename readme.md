@@ -13,11 +13,9 @@ This is a React-based task management application that allows users to create, e
 
 ## Setup Instructions
 1. Ensure you have Node.js and npm installed
-2. Clone the repository
-3. Install dependencies:
--npm install
-4. Start the development server:
--npm start
+2. Clone the repository from URL: https://github.com/ajiitkgp/My-Task-Manager.git
+3. Install dependencies: npm install
+4. Start the development server: npm start
 5. Open http://localhost:1234 in your browser
 
 ## Usage
