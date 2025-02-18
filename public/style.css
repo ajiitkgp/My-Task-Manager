@@ -1,0 +1,158 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  /* Form and Filter Styling */
+  .task-form, .search-filter, .dashboard {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .task-form h2, .search-filter h2 {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group.inline {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="date"],
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-actions {
+    margin-top: 15px;
+  }
+  
+  .form-actions button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .form-actions button:hover {
+    background-color: #2980b9;
+  }
+  
+  .search-filter input[type="text"] {
+    width: calc(100% - 20px);
+  }
+  
+  /* Dashboard Styling */
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .task-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .task-section h2 {
+    background: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 0;
+  }
+  
+  /* Task Item Styling */
+  .task-item {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .task-item.completed {
+    background: #ecf9ec;
+    text-decoration: line-through;
+  }
+  
+  .task-item.overdue {
+    background: #ffecec;
+  }
+  
+  .task-item h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .task-item .priority {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .task-actions button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .task-actions button:hover {
+    opacity: 0.9;
+  }
+  
+  .task-actions button:nth-child(1) {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .task-actions button:nth-child(2) {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .task-actions button:nth-child(3) {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
