@@ -1,0 +1,151 @@
+body {
+  color: #333;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.task-form, .search-filter, .dashboard {
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px #0000001a;
+}
+
+.task-form h2, .search-filter h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group.inline {
+  vertical-align: middle;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+.form-group input[type="text"], .form-group input[type="date"], .form-group textarea, .form-group select {
+  border: 1px solid #ccd0d5;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-actions {
+  margin-top: 15px;
+}
+
+.form-actions button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.form-actions button:hover {
+  background-color: #2980b9;
+}
+
+.search-filter input[type="text"] {
+  width: calc(100% - 20px);
+}
+
+.dashboard {
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+}
+
+.task-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.task-section h2 {
+  color: #fff;
+  background: #3498db;
+  border-radius: 4px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.task-item {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 1px 3px #0000001a;
+}
+
+.task-item.completed {
+  background: #ecf9ec;
+  text-decoration: line-through;
+}
+
+.task-item.overdue {
+  background: #ffecec;
+}
+
+.task-item h3 {
+  margin: 0 0 10px;
+}
+
+.task-item .priority {
+  color: #888;
+  font-size: 12px;
+}
+
+.task-actions button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.task-actions button:hover {
+  opacity: .9;
+}
+
+.task-actions button:first-child {
+  color: #fff;
+  background-color: #27ae60;
+}
+
+.task-actions button:nth-child(2) {
+  color: #fff;
+  background-color: #f39c12;
+}
+
+.task-actions button:nth-child(3) {
+  color: #fff;
+  background-color: #e74c3c;
+}
+/*# sourceMappingURL=index.83d9161e.css.map */
